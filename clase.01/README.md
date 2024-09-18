@@ -43,13 +43,14 @@ git config --global init.defaultBranch main
 git init
 ```
 Nota: Este comando crear un repositorio de git en la carpeta actual. O sea crea un directorio oculto llamado .git (donde dentro tengo los archivos del repositorio)
+Si se borra el archivo ya no estoy dentro del main y ya no puedo subirlo a gitHub
 
 ## Controlar el status de los archivos dentro del repositorio
 
 ```sh
 git status
 ```
-
+Nota: solo puedo realizar cuando ya tengo un repositorio creado
 
 ## Areas posibles en las que pueden estar los archivos
 
@@ -72,8 +73,9 @@ Marca el archivo y los cambios para que formen en un futuro parte de la siguient
 ```sh
 git add <nombre-archivo>
 git add clase.01/README.md
-git add . #
+git add . #Guardo tooodoooos los archivos dentro de un commit
 ```
+Nota: es mejor ir agregando de a poco los archivos y con mensajes descriptivos
 
 ## Guarda en el repositorio una instantanea. Sacar una foto/commit
 
@@ -105,7 +107,7 @@ git show <hash>
 git show 60776
 ```
 
-## Mostrar el historico de commit 
+## Mostrar el historico/historial de commit 
 
 ```sh
 git log # Version larga.
