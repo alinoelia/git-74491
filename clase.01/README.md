@@ -84,6 +84,7 @@ git commit -m "Mensaje descriptivo de lo que se hizo"
 ```
 
 ## Para comparar el Working Directory y el Local Repo
+Nota: con este comando puedo ver que es lo nuevo que estoy agregando 
 
 ```sh
 git diff
@@ -91,7 +92,7 @@ git diff
 
 ## Areas del repositorio de GIT
 
-![Alt text](image.png)
+![Alt text](/clase.01/_ref/areas-git.png)
 
 ## Quitar de la area de staging area
 
