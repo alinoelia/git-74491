@@ -6,3 +6,7 @@
 
 ![alt text](_ref/avanzada.png)
 
+## Creando una rama
+```sh
+git branch <nombre-rama>
+```
