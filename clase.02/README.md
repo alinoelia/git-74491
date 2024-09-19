@@ -127,9 +127,8 @@ git diff <nombre-rama> <nombre-rama>
 ```
 
 ## Tipos de fusiones en GIT
-
-* Fusion -> fast-forward (automatico)
-* Fusion -> tres vias (automatico)  (Genera un commit intermedio entre los ultimos commits de las ramas involucradas)
+* Fusion -> fast-forward (automático)
+* Fusion -> tres vias (automático) -> (Genera un commit intermedio entre los ultimos commits de las ramas involucradas)
 * Fusión -> Manual (Git no puedo solucionar el conflicto) Pide que yo como desarrollor solucione el conflicto.
 
 ## Tentativa de trabajo con ramas en un proyecto empresarial
