@@ -64,9 +64,14 @@ git branch feature/footer
 
 ## Moverme entre ramas
 
-```
+```sh
 git switch <nombre-rama>
 git switch feature/navbar
+```
+
+## Para moverme a la última rama que estuve 
+```sh
+ git switch -
 ```
 
 ## Crear y moverme
