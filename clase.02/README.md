@@ -6,7 +6,7 @@
 
 ```sh
 git log --oneline -<cantidad-commits>
-git log --oneline -5
+git log --oneline -5 #esta es la cantidad de commits que va a mostrar la consola
 git log --oneline -10
 ```
 
@@ -43,7 +43,7 @@ git diff 6ceff27 3760d7e #aqui van los numeritos que salieron del git log --onel
 
 ```sh
 git add .
-git commit --amend
+git commit --amend # ! Luego presiono Ctrl+o para guardar luego enter y luego Ctrl+x para salir --> incluso puedo corregir el mensaje del commit
 ```
 # Ramas (Branches)
 Nos permiten trabajar en el proyecto de manera auxiliar.
