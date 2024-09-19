@@ -45,6 +45,8 @@ git diff 6ceff27 3760d7e #aqui van los numeritos que salieron del git log --onel
 git add .
 git commit --amend # ! Luego presiono Ctrl+o para guardar luego enter y luego Ctrl+x para salir --> incluso puedo corregir el mensaje del commit
 ```
+#  Ramas (Branches)
+## Nos permiten trabajar en el proyecto de manera auxiliar.
 
 ## Listar ramas
 
