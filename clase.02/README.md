@@ -87,7 +87,7 @@ git switch -c feature/ramas
 git log --oneline --decorate --all --graph
 ```
 
-## Ver detalle de las ramas y su último commit
+## Ver el detalle de las ramas y su último commit
 
 ```sh
 git branch -v
@@ -102,7 +102,6 @@ git branch -d feature/navbar
 
 ## Borrar una rama en forma forzada. (Seguro de que la quiero borrar)
 Si los commits que estan en el rama que quiero borrar, no existen en ningun otro lado del repositorio. Me va a pedir confirmación de borrado
-
 ```sh
 git branch -D feature/navbar
 ```
