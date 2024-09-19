@@ -10,3 +10,8 @@
 ```sh
 git branch <nombre-rama>
 ```
+## Listar ramas dentro de un repositorio
+
+```sh
+git branch
+```
