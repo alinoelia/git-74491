@@ -45,8 +45,6 @@ git diff 6ceff27 3760d7e #aqui van los numeritos que salieron del git log --onel
 git add .
 git commit --amend # ! Luego presiono Ctrl+o para guardar luego enter y luego Ctrl+x para salir --> incluso puedo corregir el mensaje del commit
 ```
-# Ramas (Branches)
-Nos permiten trabajar en el proyecto de manera auxiliar.
 
 ## Listar ramas
 
@@ -54,11 +52,11 @@ Nos permiten trabajar en el proyecto de manera auxiliar.
 git branch
 ```
 
-## Crear un rama
+## Crear una rama
 
 ```sh
 git branch <nombre-rama>
-git branch feature/navbar
+git branch feature/navbar # nomeclatura para crear ramas
 git branch feature/footer
 ```
 
