@@ -24,7 +24,7 @@ git stash pop
 ```
 
 #### Aplicación de un stash en particular
-Lo aplica pero nunca borra el stash
+Lo aplica pero nunca borra el stash, lo tengo que borrar yo a mano  con un stash en particular
 
 ```sh
 git stash apply <numero de stash>
