@@ -22,3 +22,10 @@ Si lo aplica. Borra el último stash. Si hay conflicto. Lo aplica y no lo borra.
 ```sh
 git stash pop
 ```
+#### Aplicación de un stash en particular
+Lo aplica pero nunca borra el stash
+
+```sh
+git stash apply <numero de stash>
+git stash apply 1 # stash@{1}
+```
