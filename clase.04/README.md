@@ -1,5 +1,6 @@
 ## Clase 04 - Git Desarrollo Colaborativo
 
+<<<<<<< Updated upstream
 ### Área de Stash
 Los stashes son para el trabajo individual, no se suben al remoto. Puedo tener más de un stash en la caja de stashes. Es una estructura de datos conocida como pila.
 
@@ -29,3 +30,10 @@ Lo aplica pero nunca borra el stash
 git stash apply <numero de stash>
 git stash apply 1 # stash@{1}
 ```
+=======
+### Borrar un stash (el último)
+
+```sh
+git stash drop 
+```
+>>>>>>> Stashed changes
